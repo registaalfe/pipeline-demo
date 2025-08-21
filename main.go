@@ -30,7 +30,7 @@ func handler(responseWriter http.ResponseWriter, request *http.Request) {
 		return
 	}
 
-	result := a + b
+	result := a * b
 
 	fmt.Fprintf(responseWriter, "%d", result)
 }
